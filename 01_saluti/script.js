@@ -11,6 +11,7 @@ function greeting(user){
 
 // Invoca la funzione qui e stampa il risultato in console
 
+let hello = greeting(userName);
 
 
 //Risultato atteso se si passa 'Mario': // ciao Mario
