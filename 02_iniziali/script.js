@@ -4,10 +4,10 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 
 // Dichiara la funzione qui.
-
+function initial(arr){
+    let firstLetter = [];
+}
 
 // Invoca la funzione qui e stampa il risultato in console
-
-
 
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]
