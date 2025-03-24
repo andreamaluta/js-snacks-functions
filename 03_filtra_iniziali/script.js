@@ -4,7 +4,17 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
 
 // Dichiara la funzione qui.
-function selectLetter(arr, letter){
+// function selectLetter(arr, letter){
+//     let letterArr = [];
+//     for(let i = 0; i<arr.length; i++){
+//         if(arr[i].charAt(0).toLowerCase()===letter.toLowerCase()){
+//             letterArr.push(arr[i]);
+//         }
+//     }
+//     return letterArr;
+// }
+
+let selectLetter = (arr, letter) => {
     let letterArr = [];
     for(let i = 0; i<arr.length; i++){
         if(arr[i].charAt(0).toLowerCase()===letter.toLowerCase()){
