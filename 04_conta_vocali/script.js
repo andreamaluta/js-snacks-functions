@@ -19,6 +19,7 @@ function vocalCount(string){
 
 // Invoca la funzione qui e stampa il risultato in console
 
-
+let counter = vocalCount(word);
+console.log(counter);
 
 //Risultato atteso se si passa 'javascript': 3 (a, a, i)
