@@ -14,4 +14,7 @@ function initial(arr){
 
 // Invoca la funzione qui e stampa il risultato in console
 
+let initialNames = initial(names);
+console.log(initialNames);
+
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]
