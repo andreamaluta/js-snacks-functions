@@ -15,7 +15,8 @@ function selectLetter(arr, letter){
 }
 
 // Invoca la funzione qui e stampa il risultato in console
-
+let finalLetterArr = selectLetter(names, "A");
+console.log(finalLetterArr);
 
 
 //Risultato atteso se si passa la lettera A: ["Anna", "Adele", "Alessandra"]
