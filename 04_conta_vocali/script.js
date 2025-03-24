@@ -7,7 +7,14 @@ const word = 'javascript';
 function vocalCount(string){
     let count = 0;
     let vocal = ["a", "e", "i", "o", "u"];
-   
+    for(let i=0; i<string.length; i++){
+        for(j=0; j<vocal.length; j++){
+            if(string.charAt(i)===vocal[j]){
+                count++;
+            }
+        }
+    }
+    return count;
 }
 
 // Invoca la funzione qui e stampa il risultato in console
