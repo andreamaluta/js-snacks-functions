@@ -4,7 +4,12 @@ const userName = 'Mario';
 
 
 // Dichiara la funzione qui.
-function greeting(user){
+// function greeting(user){
+//     let greet = "Ciao " + user;
+//     return greet;
+// }
+
+let greeting = (user) =>{
     let greet = "Ciao " + user;
     return greet;
 }
